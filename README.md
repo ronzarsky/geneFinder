@@ -2,7 +2,7 @@ Note 1:
   - There are preprocessing steps for indexing the data in the file
  
   Step 1: 
-  - find offsets of all genes in the dna file
+  - find offsets of all genes in the dna file (enabler for multi threading step 2)
 
   Step 2: 
   - insert strings at offsets into the a prefix tree
